@@ -1,0 +1,7 @@
+[build]
+  publish = "assignments/assignment-2" 
+
+[[redirects]]
+  from = "/"
+  to = "/table.html" 
+  status = 200
