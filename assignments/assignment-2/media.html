@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+    </header>
+    <main>
+      <section>
+        <h2>A Powerful Message</h2>
+        <p>
+          I am a passionate learner and aspiring professional, dedicated to
+          mastering the skills of the digital world.
+
+          <br />My journey at AltSchool Africa has been transformative as I
+          pursue a career in technology, building meaningful solutions and
+          creating impactful innovations.
+        </p>
+      </section>
+
+      <section>
+        <h2>Picture Element Example</h2>
+        <p>Below is an image of me that adapts to different screen sizes:</p>
+        <picture>
+          <!-- Image for mobile devices -->
+          <source srcset="images/me-mobile.jpg" media="(max-width: 600px)" />
+          <!-- Image for tablets -->
+          <source srcset="images/me-tablet.jpg" media="(max-width: 1024px)" />
+          <!-- Image for laptops and larger screens -->
+          <source srcset="images/me-laptop.jpg" media="(min-width: 1025px)" />
+          <!-- Fallback image -->
+          <img src="images/me-default.jpg" alt="A picture of me" />
+        </picture>
+      </section>
+
+      <section>
+        <h2>Other Media Elements</h2>
+        <p>Here's a short video about my journey:</p>
+        <video controls>
+          <source src="videos/my-journey.mp4" type="video/mp4" />
+          <source src="videos/my-journey.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+
+        <p>Listen to my favorite track that inspires me:</p>
+        <audio controls>
+          <source src="audio/inspiration.mp3" type="audio/mpeg" />
+          <source src="audio/inspiration.ogg" type="audio/ogg" />
+          Your browser does not support the audio tag.
+        </audio>
+      </section>
+    </main>
+    <br>
+    <footer><a href="table.html">Go to Table Display Page</a></footer>
+  </body>
+</html>
