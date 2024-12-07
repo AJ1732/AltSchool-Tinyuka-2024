@@ -1,5 +1,5 @@
 [build]
-  publish = "assignments/assignment-2" 
+  publish = "/" 
 
 [[redirects]]
   from = "/"
